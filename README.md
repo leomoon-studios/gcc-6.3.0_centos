@@ -11,3 +11,5 @@ ln -s libstdc++.so.6.0.22 libstdc++.so.6 #make a new symlink to the new build
 ls -alF /usr/lib64/libstdc++.so.6* #check that the new sylink
 strings /usr/lib64/libstdc++.so.6 | grep GLIB #check if GLIBCXX_3.4.20 exists now
 ```
+## Compatibility
+Tested with CentOS 7.5
