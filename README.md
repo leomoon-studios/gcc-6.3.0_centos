@@ -1,4 +1,4 @@
-# libstdc-.so.6.0.22 for CentOS
+# libstdc++.so.6.0.22 for CentOS
 ## How to fix error "/lib64/libstdc++.so.6: version 'GLIBCXX_3.4.20' not found"
 ```bash
 wget https://raw.githubusercontent.com/leomoon-studios/libstdc-.so.6.0.22/master/libstdc%2B%2B.so.6.0.22_centos.tar.gz -O /tmp/libstdc.tar.gz #download this build
