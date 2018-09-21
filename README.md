@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/leomoon-studios/gcc-6.3.0_centos/master/l
 tar -xzf /tmp/libstdc.tar.gz #extract it
 mv /tmp/libstdc++.so.6.0.22 /usr/lib64/libstdc++.so.6.0.22 #move it to /usr/lib64
 rm -rf /tmp/libstdc.tar.gz #remove the downloaded file
-ls -alF libstdc++.so.6* #list all libstdc++
+ls -alF /usr/lib64/libstdc++.so.6* #list all libstdc++
 rm libstdc++.so.6 #remove the old symlink
 ln -s libstdc++.so.6.0.22 libstdc++.so.6 #make a new symlink to the new build
 ls -alF /usr/lib64/libstdc++.so.6* #check that the new sylink
