@@ -10,7 +10,7 @@ rm -rf /tmp/libstdc.tar.gz #remove the downloaded file
 ls -alF /usr/lib64/libstdc++.so.6* #list all libstdc++
 rm libstdc++.so.6 #remove the old symlink
 ln -s libstdc++.so.6.0.22 libstdc++.so.6 #make a new symlink to the new build
-ls -alF /usr/lib64/libstdc++.so.6* #check that the new sylink
+ls -alF /usr/lib64/libstdc++.so.6* #check that the new sylink exists
 strings /usr/lib64/libstdc++.so.6 | grep GLIB #check if GLIBCXX_3.4.20 exists now
 ```
 ## Compatibility
